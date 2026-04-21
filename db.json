@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aarav Patel",
+      "username": "aaravp",
+      "email": "aarav.patel@example.com",
+      "age": 27
+    },
+    {
+      "id": 2,
+      "name": "Meera Shah",
+      "username": "meerash",
+      "email": "meera.shah@example.com",
+      "age": 31
+    },
+    {
+      "id": 3,
+      "name": "Rohan Desai",
+      "username": "rohand",
+      "email": "rohan.desai@example.com",
+      "age": 24
+    },
+    {
+      "id": 4,
+      "name": "Priya Mehta",
+      "username": "priyam",
+      "email": "priya.mehta@example.com",
+      "age": 29
+    },
+    {
+      "id": 5,
+      "name": "Karan Joshi",
+      "username": "karanj",
+      "email": "karan.joshi@example.com",
+      "age": 35
+    },
+    {
+      "id": 6,
+      "name": "Sneha Trivedi",
+      "username": "snehat",
+      "email": "sneha.trivedi@example.com",
+      "age": 26
+    },
+    {
+      "id": 7,
+      "name": "Vikram Chauhan",
+      "username": "vikramc",
+      "email": "vikram.chauhan@example.com",
+      "age": 33
+    },
+    {
+      "id": 8,
+      "name": "Anjali Rana",
+      "username": "anjalir",
+      "email": "anjali.rana@example.com",
+      "age": 22
+    },
+    {
+      "id": 9,
+      "name": "Devang Bhatt",
+      "username": "devangb",
+      "email": "devang.bhatt@example.com",
+      "age": 30
+    },
+    {
+      "id": 10,
+      "name": "Nisha Parmar",
+      "username": "nishap",
+      "email": "nisha.parmar@example.com",
+      "age": 28
+    },
+    {
+      "id": 11,
+      "name": "Rahul Kapoor",
+      "username": "rahulk",
+      "email": "rahul.kapoor@example.com",
+      "age": 34
+    },
+    {
+      "id": 12,
+      "name": "Pooja Iyer",
+      "username": "poojai",
+      "email": "pooja.iyer@example.com",
+      "age": 25
+    },
+    {
+      "id": 13,
+      "name": "Siddharth Nair",
+      "username": "siddhn",
+      "email": "siddharth.nair@example.com",
+      "age": 32
+    },
+    {
+      "id": 14,
+      "name": "Neha Gupta",
+      "username": "nehag",
+      "email": "neha.gupta@example.com",
+      "age": 27
+    },
+    {
+      "id": 15,
+      "name": "Amit Verma",
+      "username": "amitv",
+      "email": "amit.verma@example.com",
+      "age": 36
+    }
+  ]
+}

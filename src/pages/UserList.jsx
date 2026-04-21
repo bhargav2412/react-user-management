@@ -6,7 +6,9 @@ import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
 import { Button } from "primereact/button";
 
-const UserList = () => {
+import { confirmDialog } from "primereact/confirmdialog"; // For confirmDialog method
+
+const UserList = ({ toast }) => {
   const [users, setUsers] = useState([]);
   const navigate = useNavigate();
 
@@ -23,6 +25,28 @@ const UserList = () => {
   useEffect(() => {
     fetchUsers();
   }, []);
+
+  const handleDelete = async (id) => {
+    confirmDialog({
+      message: "Are you sure you want to delete this user?",
+      header: "Delete Confirmation",
+      icon: "pi pi-exclamation-triangle",
+      accept: async () => {
+        try {
+          await api.delete(`/users/${id}`);
+          toast.current.show({
+            severity: "success",
+            summary: "User Deleted",
+            detail: "User deleted successfully",
+            life: 3000,
+          });
+          fetchUsers();
+        } catch (error) {
+          console.error("Error deleting user:", error);
+        }
+      },
+    });
+  };
 
   const actionTemplate = (rowData) => (
     <>
